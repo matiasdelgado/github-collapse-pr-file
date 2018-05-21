@@ -48,7 +48,7 @@ function collapseFile(target) {
 
 function appendButton(file, index) {
   const img = document.createElement('img');
-  img.src = chrome.runtime.getURL('if_icon-chevron-up_211648.png');
+  img.src = chrome.runtime.getURL('images/if_icon-chevron-up_211648.png');
   img.classList = ['collapse-icon'];
   img.title = 'Collapse file ' + (index + 1);
   img.style = 'position: absolute; bottom: 6px; right: 10px; width: 10px; cursor: pointer;';
