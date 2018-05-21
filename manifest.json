@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Collapse files in GitHub's Pull Request",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://github.com/*"
+  ]
+}
+
