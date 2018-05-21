@@ -10,6 +10,7 @@
     "tabs",
     "activeTab",
     "https://github.com/*"
-  ]
+  ],
+  "web_accessible_resources": ["if_icon-chevron-up_211648.png"]
 }
 
